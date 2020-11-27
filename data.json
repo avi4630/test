@@ -4,6 +4,9 @@
       "apps": {
         "cuckoosnest": {
           "title": "One Flew Over The Cuckoo’s Nest"
+        },
+        "psycho": {
+          "title": "Psycho"
         }
       }
     },
@@ -11,6 +14,9 @@
       "apps": {
         "psycho": {
           "title": "Psycho"
+        },
+        "addams": {
+          "title": "The Addams Family"
         }
       }
     },
