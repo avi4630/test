@@ -1,10 +1,16 @@
-export var firebaseConfig = {
-    apiKey: "AIzaSyC0S5jdws2_i07ruYikOUmz6ZxTxagj59c",
-    authDomain: "test-ff6a1.firebaseapp.com",
-    databaseURL: "https://test-ff6a1.firebaseio.com",
-    projectId: "test-ff6a1",
-    storageBucket: "test-ff6a1.appspot.com",
-    messagingSenderId: "404314458634",
-    appId: "1:404314458634:web:f88b25bbc4015b2c4fedf3",
-    measurementId: "G-ZHB10PTVW4"
-  };
+import firebase from "firebase/app";
+import "firebase/database";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBiyIVqqBUv_i1OD0MfGoZFX4S_SFFnTcY",
+  authDomain: "avinash-mane.firebaseapp.com",
+  databaseURL: "https://avinash-mane-default-rtdb.firebaseio.com",
+  projectId: "avinash-mane",
+  storageBucket: "avinash-mane.appspot.com",
+  messagingSenderId: "627714163394",
+  appId: "1:627714163394:web:8d40bb4dcd5bf5b602315b"
+};
+
+let fireBaseDb = firebase.initializeApp(firebaseConfig);
+
+export default fireBaseDb.database().ref();
